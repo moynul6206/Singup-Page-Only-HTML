@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sing Up Form</Title>
+</head>
+<body>
+    <h1 style="text-align: center; color: brown;">Sing Up Form - by Moynul Islam</h1><hr>
+    <br>
+    <label for="user">Name:</label>
+<input type="text" id="user" name="user" placeholder="User Name">
+ <br>
+<label for="email">Email:</label>
+<input type="email" id="email" name="usermail" placeholder="User Mail" required>
+ <br>
+<label for="pass">Password</label>
+<input type="pass" name="Password" placeholder="Password"> 
+<br>
+<label for="phn">Phon:</label> <br>
+<select name="code">
+    <option value="+880">+880</option>
+    <option value="+990">+990</option>
+    <option value="+110">+110</option>
+</select>
+<input type="number" id="phn" name="phone" placeholder="1234567891" required>
+ <br>
+ <label for="Country">Country</label>
+ <input list="con">
+ <datalist id="con">
+    <option value="Bangladesh"></option>
+    <option value="India"></option>
+    <option value="Canada"></option>
+    </datalist>
+ <br>
+Gender:
+<input type="radio" name="gender">
+<label for="gnd">Male</label>
+<input type="radio" name="gender">
+<label for="gnd">Female</label>
+ <br>
+<label for="date">Date Of Birth:</label>
+<input type="date" id="date" name="dob"> <br>
+<label for="time">Time:</label>
+<input type="time" id="time" name="tm">
+<br>
+<label for="colors">Favourite Color:</label>
+<input type="color" id="colors" name="clo">
+<br>
+<label for="file">Choose Photo:</label>
+<input type="file" id="file" name="pic
+">
+<br>
+<input type="checkbox" id="vehicle1" name="vec">
+<label for="vehicle1">I Have A Bike:</label>
+<input type="checkbox" id="vehicle2" name="vec2">
+<label for="vehicle2">I Have A Cycle</label>
+<br> 
+<textarea name="comment" cols="30" rows="10">Comment Here</textarea>
+<br>
+<input type="submit" value="Submit">
+<input type="reset" value="Reset">
+</body>
+</html>
